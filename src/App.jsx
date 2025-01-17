@@ -59,7 +59,7 @@ function App() {
           <div className='text'>Will you be my valentine, Tiares?🌹</div>
           <div className='both-Button'>
             <button className='yesButton'
-            style={{ fontSize: yesButtonSize , backgroundColor:'rgb(248, 229, 89)'}}
+            style={{ fontSize: yesButtonSize , backgroundColor:'rgb((34, 177, 76)'}}
               onClick={handleYesClick}
             >
               Yes&lt;3
