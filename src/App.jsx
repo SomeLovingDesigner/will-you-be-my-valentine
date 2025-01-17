@@ -35,7 +35,7 @@ function App() {
   // Function to handle the click on the "YES" button
   function handleYesClick() {
     setYesPressed(true)
-    setTimeout(() => setShowSecondButton(true), 2000); // Show the second button after a delay
+    setTimeout(() => setShowSecondButton(true), 850); // Show the second button after a delay
   }
 
   // Function to handle the click on the "NO" button
@@ -63,10 +63,10 @@ function App() {
            {showSecondButton && ( // Show the second button after a delay
             <button
               className='funButton'
-              style={{ fontSize: '1.5em', backgroundColor: 'lightblue', marginTop: '20px' }}
+              style={{ fontSize: '1.5em', backgroundColor: 'lightblue', marginTop: '10px' }}
               onClick={() => alert('Let’s do something extra fun together!')}
             >
-              Let’s Keep This Going!
+              wait don't go! there's more :3
             </button>
           )}
         </>
