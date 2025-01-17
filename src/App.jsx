@@ -6,7 +6,7 @@ const phrases = [
   "No",
   "why 8(",
   "pleeaaaase?",
-  "you better not click me again mrs. campbell",
+  "you better not click me again",
   "Pleaseee please please",
   "MY HEARTTTT ISSS BREAAAKINGGGG",
   "TIAARESSSSSSS",
