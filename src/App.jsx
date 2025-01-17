@@ -63,7 +63,7 @@ function App() {
            {showSecondButton && ( // Show the second button after a delay
             <button
               className='funButton'
-              style={{ fontSize: '1.5em', backgroundColor: 'lightblue', marginTop: '10px' }}
+              style={{ fontSize: '1.5em', marginTop: '10px' }}
               onClick={() => alert('Let’s do something extra fun together!')}
             >
               wait don't go! there's more :3
