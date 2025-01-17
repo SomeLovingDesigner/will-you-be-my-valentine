@@ -35,7 +35,7 @@ function App() {
   // Function to handle the click on the "YES" button
   function handleYesClick() {
     setYesPressed(true)
-    setTimeout(() => setShowSecondButton(true), 1200); // Show the second button after a delay
+    setTimeout(() => setShowSecondButton(true), 1350); // Show the second button after a delay
   }
 
   // Function to handle the click on the "NO" button
