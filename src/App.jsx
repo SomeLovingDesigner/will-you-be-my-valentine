@@ -30,10 +30,12 @@ function App() {
   const [noCount, setNoCount] = useState(0); // State to keep track of the number of clicks on the "NO" button
   const [yesPressed, setYesPressed] = useState(false); // State to check if the "YES" button has been clicked
   const yesButtonSize = noCount * 20 + 16; // Dynamic adjustment of the "YES" button size based on the number of clicks on the "NO" button
+  const [showSecondButton, setShowSecondButton] = useState(false); // State to show the second button
 
   // Function to handle the click on the "YES" button
   function handleYesClick() {
     setYesPressed(true)
+    setTimeout(() => setShowSecondButton(true), 2000); // Show the second button after a delay
   }
 
   // Function to handle the click on the "NO" button
@@ -58,6 +60,15 @@ function App() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
           <div className='text'>YAYYYYY&lt;33</div>
+           {showSecondButton && ( // Show the second button after a delay
+            <button
+              className='funButton'
+              style={{ fontSize: '1.5em', backgroundColor: 'lightblue', marginTop: '20px' }}
+              onClick={() => alert('Let’s do something extra fun together!')}
+            >
+              Let’s Keep This Going!
+            </button>
+          )}
         </>
       ) : ( // Display content before clicking the "YES" button
         <>
