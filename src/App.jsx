@@ -43,7 +43,7 @@ function App() {
       ) : ( // Display content before clicking the "YES" button
         <>
           <img className='kiss' src="https://i.pinimg.com/originals/73/89/aa/7389aaa2a73b071ee7d3d782310e590b.gif" alt="bear with heart" />
-          <div className='text'>Will you be my valentine, Tiares?❤🌹</div>
+          <div className='text'>Will you be my valentine, Tiares?🌹</div>
           <div className='both-Button'>
             <button className='yesButton'
             style={{ fontSize: yesButtonSize , backgroundColor:'rgb(248, 229, 89)'}}
