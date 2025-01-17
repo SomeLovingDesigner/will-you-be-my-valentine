@@ -58,24 +58,6 @@ function App() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
           <div className='text'>YAYYYYY&lt;33</div>
-          {!funActionTaken ? ( //Start
-            <button
-              className='funButton'
-              style={{
-                backgroundColor: 'rgb(255, 182, 193)',
-                padding: '0.8em 1.5em',
-                fontSize: '1.2em',
-                margin: '1rem',
-                borderRadius: '10px',
-                fontWeight: '600'
-              }}
-              onClick={handleFunButtonClick}
-            >
-              Do something fun!
-            </button>
-          ) : (
-            <div className='text'>Thanks for joining the fun! 🥳</div>
-          )} //End
         </>
       ) : ( // Display content before clicking the "YES" button
         <>
