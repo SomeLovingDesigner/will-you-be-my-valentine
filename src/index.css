@@ -1,17 +1,17 @@
 @keyframes shake {
   0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
+  25% { transform: translateX(-50px); }
+  50% { transform: translateX(50px); }
   75% { transform: translateX(-5px); }
   100% { transform: translateX(0); }
 }
 
 @keyframes shake-intense {
   0% { transform: translateX(0); }
-  20% { transform: translateX(-10px); }
-  40% { transform: translateX(10px); }
-  60% { transform: translateX(-10px); }
-  80% { transform: translateX(10px); }
+  20% { transform: translateX(-100px); }
+  40% { transform: translateX(100px); }
+  60% { transform: translateX(-100px); }
+  80% { transform: translateX(100px); }
   100% { transform: translateX(0); }
 }
 
