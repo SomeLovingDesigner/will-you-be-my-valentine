@@ -49,7 +49,7 @@ function App() {
             style={{ fontSize: yesButtonSize , backgroundColor:'rgb(248, 229, 89)'}}
               onClick={handleYesClick}
             >
-              TAK
+              Yes&lt;3
             </button>
             <button
               className='NoButton'
