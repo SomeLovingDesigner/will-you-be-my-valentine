@@ -65,7 +65,7 @@ function App() {
             <button
               className='funButton'
               style={{ fontSize: '1.5em', marginTop: '10px' }}
-              onClick={() => alert('Let’s do something extra fun together!')}
+              onClick={() => alert('Message me to get the next part <3')}
             >
               wait don't go! there's more :3
             </button>
